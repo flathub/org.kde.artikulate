@@ -25,7 +25,7 @@
         },
         {
           "type": "patch",
-          "path": "0001-fix-appstream.patch"
+          "path": "appdata.patch"
         }
       ]
     }
