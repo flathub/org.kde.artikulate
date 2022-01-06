@@ -20,12 +20,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/21.12.0/src/artikulate-21.12.0.tar.xz",
-          "sha256": "c1cc736a8e4cdc89bd4a87246741150b947a72826d48b12cdb30b38cf75b5b8e"
-        },
-        {
-          "type": "patch",
-          "path": "appdata.patch"
+          "url": "https://download.kde.org/stable/release-service/21.12.1/src/artikulate-21.12.1.tar.xz",
+          "sha256": "bd3c74f4f2b48ae9a1312eb64baa868f4ff7b2fc8c090f49b5b61e8f95a99d10"
         }
       ]
     }
