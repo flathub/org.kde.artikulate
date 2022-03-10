@@ -21,7 +21,13 @@
         {
           "type": "archive",
           "url": "https://download.kde.org/stable/release-service/21.12.3/src/artikulate-21.12.3.tar.xz",
-          "sha256": "df7ccc4901b1ea20ac46d66747b9999e50763650e42022febf617be747ab6f39"
+          "sha256": "df7ccc4901b1ea20ac46d66747b9999e50763650e42022febf617be747ab6f39",
+          "x-checker-data": {
+            "type": "anitya",
+            "project-id": 8763,
+            "stable-only": true,
+            "url-template": "https://download.kde.org/stable/release-service/$version/src/artikulate-$version.tar.xz"
+          }
         }
       ]
     }
