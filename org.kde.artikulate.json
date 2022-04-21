@@ -1,35 +1,35 @@
 {
-  "id": "org.kde.artikulate",
-  "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-21.08",
-  "sdk": "org.kde.Sdk",
-  "command": "artikulate",
-  "rename-icon": "artikulate",
-  "finish-args": [
-    "--share=network",
-    "--share=ipc",
-    "--socket=fallback-x11",
-    "--socket=wayland",
-    "--socket=pulseaudio",
-    "--device=dri"
-  ],
-  "modules": [
-    {
-      "name": "artikulate",
-      "buildsystem": "cmake-ninja",
-      "sources": [
+    "id": "org.kde.artikulate",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "5.15-21.08",
+    "sdk": "org.kde.Sdk",
+    "command": "artikulate",
+    "rename-icon": "artikulate",
+    "finish-args": [
+        "--share=network",
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--socket=pulseaudio",
+        "--device=dri"
+    ],
+    "modules": [
         {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/21.12.3/src/artikulate-21.12.3.tar.xz",
-          "sha256": "df7ccc4901b1ea20ac46d66747b9999e50763650e42022febf617be747ab6f39",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 8763,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/src/artikulate-$version.tar.xz"
-          }
+            "name": "artikulate",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/artikulate-22.04.0.tar.xz",
+                    "sha256": "3880d6bb7986db154bde969b5d8a02bcfdce2e8304d911a989156160f401c453",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/artikulate-$version.tar.xz"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
