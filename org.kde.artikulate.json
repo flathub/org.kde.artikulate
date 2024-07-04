@@ -20,8 +20,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.05.1/src/artikulate-24.05.1.tar.xz",
-                    "sha256": "954a551e074491466e15a6283fa08cfe9362034a145bcbea8afe84f3b1484f29",
+                    "url": "https://download.kde.org/stable/release-service/24.05.2/src/artikulate-24.05.2.tar.xz",
+                    "sha256": "53cf49d9f0e7afe2496fa6f000718661234e15808ef4dcbf607addd62d78db17",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
