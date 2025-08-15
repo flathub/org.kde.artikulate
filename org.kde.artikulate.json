@@ -1,7 +1,7 @@
 {
     "id": "org.kde.artikulate",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-24.08",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "artikulate",
     "rename-icon": "artikulate",
@@ -15,13 +15,31 @@
     ],
     "modules": [
         {
+            "name": "kirigami-addons",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.9.0.tar.xz",
+                    "sha256": "21314a91f26b1c962def3fd7ff2e762d3358b075f63f4d7e0144fb2c63b7ebc7",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242933,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "artikulate",
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/artikulate-25.04.3.tar.xz",
-                    "sha256": "428ce49b04e8403ae952757dd883821b0e235170b9cfa0e7ba58b867bfaab404",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/artikulate-25.08.0.tar.xz",
+                    "sha256": "92703da756d380e2f8cb73c9192769fc18d92aea3f8db8e1c6e97b9b4c8bbda9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
