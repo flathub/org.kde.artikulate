@@ -13,6 +13,11 @@
         "--socket=pulseaudio",
         "--socket=wayland"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/share/kdevappwizard"
+    ],
     "modules": [
         {
             "name": "kirigami-addons",
