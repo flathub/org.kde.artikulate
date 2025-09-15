@@ -6,17 +6,26 @@
     "command": "artikulate",
     "rename-icon": "artikulate",
     "finish-args": [
-        "--share=network",
+        "--device=dri",
         "--share=ipc",
+        "--share=network",
         "--socket=fallback-x11",
-        "--socket=wayland",
         "--socket=pulseaudio",
-        "--device=dri"
+        "--socket=wayland"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/share/kdevappwizard"
     ],
     "modules": [
         {
             "name": "kirigami-addons",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
             "builddir": true,
             "sources": [
                 {
@@ -35,6 +44,10 @@
         {
             "name": "artikulate",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
             "sources": [
                 {
                     "type": "archive",
