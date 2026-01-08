@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.10.0.tar.xz",
-                    "sha256": "c98f92bf7c452e12f6dc403404215413db3959fe904ad830ead0db6bb09b3d11",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.11.0.tar.xz",
+                    "sha256": "6dcdfa324f710f00887e6321212fc8582a3c4712450d129d91435bb1edd8d523",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/artikulate-25.12.0.tar.xz",
-                    "sha256": "c00b25557c35595a75aeb41ee969a550229efd45eedd3dab71e60f3376ac61a6",
+                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/artikulate-25.12.1.tar.xz",
+                    "sha256": "de08a11bc7a5ab43b91b38c503524d356a6e3deeb068b33afd700529dbffac41",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
