@@ -16,6 +16,7 @@
     "cleanup": [
         "/include",
         "/lib/cmake",
+        "/share/doc",
         "/share/kdevappwizard"
     ],
     "modules": [
